@@ -16,5 +16,15 @@ public class TheaterReservations {
         String[] splitName = name.split(" ");
         String firstName = splitName[0];
         String lastName = splitName[1];
+
+        // Convert date here
+
+        String tix = numTickets + " tickets";
+
+        if (numTickets == 1) {
+            tix = numTickets + " ticket";
+        }
+
+        System.out.println(tix + " reserved for " + date + " under " + lastName + ", " + firstName);
     }
 }
