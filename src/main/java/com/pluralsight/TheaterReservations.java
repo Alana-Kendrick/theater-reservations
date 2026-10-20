@@ -12,5 +12,9 @@ public class TheaterReservations {
         String date = scanner.nextLine();
         System.out.print("How many tickets would you like? ");
         int numTickets = scanner.nextInt();
+
+        String[] splitName = name.split(" ");
+        String firstName = splitName[0];
+        String lastName = splitName[1];
     }
 }
