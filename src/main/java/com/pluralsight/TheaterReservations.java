@@ -26,5 +26,7 @@ public class TheaterReservations {
         }
 
         System.out.println(tix + " reserved for " + date + " under " + lastName + ", " + firstName);
+
+        scanner.close();
     }
 }
